@@ -11,10 +11,10 @@
 #include "GameTime.h"
 #include "GossipDef.h"
 
-+#ifdef MOD_PLAYERBOTS
-+#include "PlayerbotAI.h"
-+#include "PlayerbotMgr.h"
-+#endif
+#ifdef MOD_PLAYERBOTS
+#include "PlayerbotAI.h"
+#include "PlayerbotMgr.h"
+#endif
 
 /***
  * Inherits all methods from: [Object], [WorldObject], [Unit]
